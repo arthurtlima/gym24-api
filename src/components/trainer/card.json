@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_trainer_cards",
+  "info": {
+    "displayName": "card"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "instagram_link": {
+      "type": "string",
+      "required": false
+    },
+    "twitter_link": {
+      "type": "string",
+      "required": false
+    },
+    "youtube_link": {
+      "type": "string"
+    }  
+  }
+}

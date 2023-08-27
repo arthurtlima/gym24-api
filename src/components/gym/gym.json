@@ -1,8 +1,21 @@
 {
   "collectionName": "components_gym_gyms",
   "info": {
-    "displayName": "gym"
+    "displayName": "gym",
+    "description": ""
   },
   "options": {},
-  "attributes": {}
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "card": {
+      "displayName": "card",
+      "type": "component",
+      "repeatable": true,
+      "component": "gym.card",
+      "required": true
+    }
+  }
 }

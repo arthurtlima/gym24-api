@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_gym_cards",
+  "info": {
+    "displayName": "card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "integer",
+      "required": true,
+      "min": 0
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

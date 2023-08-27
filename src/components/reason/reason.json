@@ -1,8 +1,21 @@
 {
   "collectionName": "components_reason_reasons",
   "info": {
-    "displayName": "reason"
+    "displayName": "reason",
+    "description": ""
   },
   "options": {},
-  "attributes": {}
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "displayName": "content",
+      "type": "component",
+      "repeatable": true,
+      "component": "reason.content",
+      "required": true
+    }
+  }
 }
