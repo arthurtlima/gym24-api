@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "displayName": "hero",
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero",
+      "required": true
+    },
+    "reason": {
+      "displayName": "reason",
+      "type": "component",
+      "repeatable": false,
+      "component": "reason.reason",
+      "required": true
+    },
+    "gym": {
+      "displayName": "gym",
+      "type": "component",
+      "repeatable": false,
+      "component": "gym.gym",
+      "required": true
+    },
+    "about": {
+      "displayName": "about",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.about",
+      "required": true
+    },
+    "trainer": {
+      "displayName": "trainer",
+      "type": "component",
+      "repeatable": false,
+      "component": "trainer.trainer",
+      "required": true
+    }
+  }
+}
