@@ -1,7 +1,8 @@
 {
   "collectionName": "components_gym_cards",
   "info": {
-    "displayName": "card"
+    "displayName": "card",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -17,6 +18,14 @@
     "content": {
       "type": "richtext",
       "required": true
+    },
+    "button_label": {
+      "type": "string",
+      "required": false
+    },
+    "button_link": {
+      "type": "string",
+      "required": false
     }
   }
 }
